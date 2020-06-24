@@ -1,0 +1,638 @@
+{
+    "playlist": {
+        "name": "Soraya - Lente",
+        "id": "spotify:playlist:12yFbcxJW0cgWNX3rq5HRX"
+    },
+    "tracks": [
+        {
+            "spotifyInfo": {
+                "title": "Alright",
+                "artist": "Jain",
+                "time": 222493,
+                "min": 3,
+                "sec": 42
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=MARsW26KXQg",
+                "URL": "https://www.youtube.com//watch?v=MARsW26KXQg",
+                "title": "Jain - Alright (Official Video)"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Oh Man",
+                "artist": "Jain",
+                "time": 204133,
+                "min": 3,
+                "sec": 24
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=tEXEg6w6BMg",
+                "URL": "https://www.youtube.com//watch?v=tEXEg6w6BMg",
+                "title": "Jain - Oh Man (Official Video | Live @MNAC Museum)"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Makeba",
+                "artist": "Jain",
+                "time": 249533,
+                "min": 4,
+                "sec": 9
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=59Q_lhgGANc",
+                "URL": "https://www.youtube.com//watch?v=59Q_lhgGANc",
+                "title": "Jain - Makeba (Official Video)"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Rien qu'un ciel",
+                "artist": "Il Etait Une Fois",
+                "time": 156813,
+                "min": 2,
+                "sec": 36
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=qG2crUg06LM",
+                "URL": "https://www.youtube.com//watch?v=qG2crUg06LM",
+                "title": "Il \u00e9tait une fois - Rien qu'un ciel"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Vendeurs de larmes",
+                "artist": "Daniel Balavoine",
+                "time": 281586,
+                "min": 4,
+                "sec": 41
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=Ykprrz_XDyc",
+                "URL": "https://www.youtube.com//watch?v=Ykprrz_XDyc",
+                "title": "Vendeurs de larmes"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "La rua Madureira",
+                "artist": "Nino Ferrer",
+                "time": 203146,
+                "min": 3,
+                "sec": 23
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=wASTFv7XZ1E",
+                "URL": "https://www.youtube.com//watch?v=wASTFv7XZ1E",
+                "title": "La rua Madureira.wmv"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Un Homme Heureux - Live Palais Des Congr\u00e8s",
+                "artist": "William Sheller",
+                "time": 226066,
+                "min": 3,
+                "sec": 46
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=PqVMnkSApgw",
+                "URL": "https://www.youtube.com//watch?v=PqVMnkSApgw",
+                "title": "Un Homme Heureux (Live Palais Des Congr\u00e8s)"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Beat It - Single Version",
+                "artist": "Michael Jackson",
+                "time": 258040,
+                "min": 4,
+                "sec": 18
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=oRdxUFDoQe0",
+                "URL": "https://www.youtube.com//watch?v=oRdxUFDoQe0",
+                "title": "Michael Jackson - Beat It (Official Video)"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Super Trouper",
+                "artist": "ABBA",
+                "time": 252853,
+                "min": 4,
+                "sec": 12
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=BshxCIjNEjY",
+                "URL": "https://www.youtube.com//watch?v=BshxCIjNEjY",
+                "title": "Abba - Super Trouper"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Take A Chance On Me",
+                "artist": "ABBA",
+                "time": 243933,
+                "min": 4,
+                "sec": 3
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=-crgQGdpZR0",
+                "URL": "https://www.youtube.com//watch?v=-crgQGdpZR0",
+                "title": "Abba - Take A Chance On Me (Official Video)"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Chiquitita",
+                "artist": "ABBA",
+                "time": 326320,
+                "min": 5,
+                "sec": 26
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=p4QqMKe3rwY",
+                "URL": "https://www.youtube.com//watch?v=p4QqMKe3rwY",
+                "title": "Abba - Chiquitita"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Petit pays",
+                "artist": "Ces\u00e1ria Evora",
+                "time": 224506,
+                "min": 3,
+                "sec": 44
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=DeLUGn7qYP8",
+                "URL": "https://www.youtube.com//watch?v=DeLUGn7qYP8",
+                "title": "Cesaria Evora - Petit pays (Official Video)"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Te Quiero",
+                "artist": "Onda Vaga",
+                "time": 182560,
+                "min": 3,
+                "sec": 2
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=-8z3w1o0rY4",
+                "URL": "https://www.youtube.com//watch?v=-8z3w1o0rY4",
+                "title": "13 Te Quiero - Onda Vaga"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Desconf\u00edo",
+                "artist": "Pappo's Blues",
+                "time": 158815,
+                "min": 2,
+                "sec": 38
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=INICvUKDOcU",
+                "URL": "https://www.youtube.com//watch?v=INICvUKDOcU",
+                "title": "Pappo's Blues - Desconf\u00edo (Pseudo Video)"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Mambeado",
+                "artist": "Onda Vaga",
+                "time": 221960,
+                "min": 3,
+                "sec": 41
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=ufS9fROh6Z4",
+                "URL": "https://www.youtube.com//watch?v=ufS9fROh6Z4",
+                "title": "ONDA VAGA - MAMBEADO"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "El Estupor",
+                "artist": "Onda Vaga",
+                "time": 262835,
+                "min": 4,
+                "sec": 22
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=BUbptwKyXTw",
+                "URL": "https://www.youtube.com//watch?v=BUbptwKyXTw",
+                "title": "Onda Vaga - El Estupor | en Cabo Polonio"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Etude Op. 76 nr 2",
+                "artist": "Jean Sibelius",
+                "time": 168786,
+                "min": 2,
+                "sec": 48
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=L7TYLwflYPg",
+                "URL": "https://www.youtube.com//watch?v=L7TYLwflYPg",
+                "title": "Sibelius - Etude op. 76 no. 2"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "June. Barcarolle The Seasons, Op. 37b (1875-6)",
+                "artist": "Pyotr Ilyich Tchaikovsky",
+                "time": 270800,
+                "min": 4,
+                "sec": 30
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=RF2W0rITb8c",
+                "URL": "https://www.youtube.com//watch?v=RF2W0rITb8c",
+                "title": "June. Barcarolle The Seasons, Op. 37b (1875-6)"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Symphony No. 3 in D, D.200: II. Allegretto",
+                "artist": "Franz Schubert",
+                "time": 221013,
+                "min": 3,
+                "sec": 41
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=HQ7y_rco-Ns",
+                "URL": "https://www.youtube.com//watch?v=HQ7y_rco-Ns",
+                "title": "Franz Schubert: Symphony No. 3 in D major, II. Allegretto"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Album for the Young, Op. 39: No. 21. Sweet Dreams (Douce reverie)",
+                "artist": "Pyotr Ilyich Tchaikovsky",
+                "time": 108026,
+                "min": 1,
+                "sec": 48
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=crCAeF0sodY",
+                "URL": "https://www.youtube.com//watch?v=crCAeF0sodY",
+                "title": "Tchaikovsky : Sweet Dreams, Op. 39, No. 21"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Hier encore",
+                "artist": "Charles Aznavour",
+                "time": 143466,
+                "min": 2,
+                "sec": 23
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=bHokx2L1wi4",
+                "URL": "https://www.youtube.com//watch?v=bHokx2L1wi4",
+                "title": "Charles Aznavour   Hier encore"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Say Say Say",
+                "artist": "Paul McCartney",
+                "time": 234533,
+                "min": 3,
+                "sec": 54
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=aLEhh_XpJ-0",
+                "URL": "https://www.youtube.com//watch?v=aLEhh_XpJ-0",
+                "title": "Say Say Say by Paul McCartney and Michael Jackson"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Jardin d'hiver",
+                "artist": "Henri Salvador",
+                "time": 168000,
+                "min": 2,
+                "sec": 48
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=gFkUVik35U8",
+                "URL": "https://www.youtube.com//watch?v=gFkUVik35U8",
+                "title": "Henri Salvador - Jardin d'Hiver"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Brazil",
+                "artist": "Django Reinhardt",
+                "time": 168720,
+                "min": 2,
+                "sec": 48
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=26UASuev6mI",
+                "URL": "https://www.youtube.com//watch?v=26UASuev6mI",
+                "title": "Django Reinhardt - Brazil"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "I Wish I Knew How It Would Feel to Be Free",
+                "artist": "Nina Simone",
+                "time": 188613,
+                "min": 3,
+                "sec": 8
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=HDqmJEWOJRI",
+                "URL": "https://www.youtube.com//watch?v=HDqmJEWOJRI",
+                "title": "Nina Simone - I Wish I Knew How It Would Feel to Be Free (Audio)"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Je te laisserai des mots",
+                "artist": "Patrick Watson",
+                "time": 160853,
+                "min": 2,
+                "sec": 40
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=chWW-sdnSDM",
+                "URL": "https://www.youtube.com//watch?v=chWW-sdnSDM",
+                "title": "Patrick Watson - Je te laisserai des mots"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Memoir",
+                "artist": "Villagers",
+                "time": 212693,
+                "min": 3,
+                "sec": 32
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=LTjvsY-ivqc",
+                "URL": "https://www.youtube.com//watch?v=LTjvsY-ivqc",
+                "title": "Villagers - Memoir(lyrics)"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Mi Negrita",
+                "artist": "Devendra Banhart",
+                "time": 204506,
+                "min": 3,
+                "sec": 24
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=Nf-9jLF6mIk",
+                "URL": "https://www.youtube.com//watch?v=Nf-9jLF6mIk",
+                "title": "Devendra Banhart - Mi Negrita"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Les mots bleus",
+                "artist": "Johan Papaconstantino",
+                "time": 250893,
+                "min": 4,
+                "sec": 10
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=KVkfHcjIbAM",
+                "URL": "https://www.youtube.com//watch?v=KVkfHcjIbAM",
+                "title": "Johan Papaconstantino - Les mots bleus (Reprise de Christophe)"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Lundi",
+                "artist": "Johan Papaconstantino",
+                "time": 177665,
+                "min": 2,
+                "sec": 57
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=OndvaVveHVU",
+                "URL": "https://www.youtube.com//watch?v=OndvaVveHVU",
+                "title": "Johan Papaconstantino - Lundi"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "J'aimerai",
+                "artist": "Johan Papaconstantino",
+                "time": 224937,
+                "min": 3,
+                "sec": 44
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=aABsXoQ1kDI",
+                "URL": "https://www.youtube.com//watch?v=aABsXoQ1kDI",
+                "title": "J'aimerai - Johan Papaconstantino"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Pourquoi tu cries ??",
+                "artist": "Johan Papaconstantino",
+                "time": 253088,
+                "min": 4,
+                "sec": 13
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=ghMwRs99Y9Y",
+                "URL": "https://www.youtube.com//watch?v=ghMwRs99Y9Y",
+                "title": "pourquoi tu cries?? - Johan Papaconstantino"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Purple",
+                "artist": "Johan Papaconstantino",
+                "time": 208491,
+                "min": 3,
+                "sec": 28
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=bC_19QpxoXc",
+                "URL": "https://www.youtube.com//watch?v=bC_19QpxoXc",
+                "title": "Purple - Johan Papaconstantino"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "L'amour \u00e0 la plage",
+                "artist": "Niagara",
+                "time": 203293,
+                "min": 3,
+                "sec": 23
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=WkPV51HtLfw",
+                "URL": "https://www.youtube.com//watch?v=WkPV51HtLfw",
+                "title": "Niagara - L'Amour A La Plage"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Pendant que les champs br\u00fblent",
+                "artist": "Niagara",
+                "time": 241706,
+                "min": 4,
+                "sec": 1
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=NTVvmCAEg3A",
+                "URL": "https://www.youtube.com//watch?v=NTVvmCAEg3A",
+                "title": "Niagara - Pendant Que Les Champs Br\u00fblent"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Pavane, Op. 50",
+                "artist": "Gabriel Faur\u00e9",
+                "time": 275680,
+                "min": 4,
+                "sec": 35
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=mpgyTl8yqbw",
+                "URL": "https://www.youtube.com//watch?v=mpgyTl8yqbw",
+                "title": "Gabriel FAURE': Pavane, Op. 50 - Paintings By \"CLAUDE MONET\""
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Waltz in C-Sharp Minor, Op. 64 No. 2",
+                "artist": "Fr\u00e9d\u00e9ric Chopin",
+                "time": 199773,
+                "min": 3,
+                "sec": 19
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=SUT_0c2QVzo",
+                "URL": "https://www.youtube.com//watch?v=SUT_0c2QVzo",
+                "title": "Chopin - Waltz in C Sharp Minor (Op. 64 No. 2)"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Spooky Couch",
+                "artist": "Albert Hammond, Jr.",
+                "time": 438906,
+                "min": 7,
+                "sec": 18
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=OOJUsAPbk3s",
+                "URL": "https://www.youtube.com//watch?v=OOJUsAPbk3s",
+                "title": "albert hammond jr. - spooky couch"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Abrasive",
+                "artist": "Ratatat",
+                "time": 256808,
+                "min": 4,
+                "sec": 16
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=f7wkRET0hbo",
+                "URL": "https://www.youtube.com//watch?v=f7wkRET0hbo",
+                "title": "RATATAT - ABRASIVE"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Pricks of Brightness",
+                "artist": "Ratatat",
+                "time": 188135,
+                "min": 3,
+                "sec": 8
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=0TKhP-ybKVs",
+                "URL": "https://www.youtube.com//watch?v=0TKhP-ybKVs",
+                "title": "RATATAT - PRICKS OF BRIGHTNESS"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "A La Mierda",
+                "artist": "Onda Vaga",
+                "time": 183320,
+                "min": 3,
+                "sec": 3
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=dWn3LmGX2oI",
+                "URL": "https://www.youtube.com//watch?v=dWn3LmGX2oI",
+                "title": "A la mierda - Magma Elemental - Onda Vaga"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Homens",
+                "artist": "Manu Chao",
+                "time": 198426,
+                "min": 3,
+                "sec": 18
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=9mHkvtCneBI",
+                "URL": "https://www.youtube.com//watch?v=9mHkvtCneBI",
+                "title": "Manu Chao- Homens"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "A Mi Manera (Comme D'Habitude)",
+                "artist": "Gipsy Kings",
+                "time": 231533,
+                "min": 3,
+                "sec": 51
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=tdSLuPje0Gc",
+                "URL": "https://www.youtube.com//watch?v=tdSLuPje0Gc",
+                "title": "Gipsy Kings - A Mi Manera (Comme D'Habitude) [Audio]"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Xuxa Park",
+                "artist": "Onda Vaga",
+                "time": 215883,
+                "min": 3,
+                "sec": 35
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=5LWS3-7P4sg",
+                "URL": "https://www.youtube.com//watch?v=5LWS3-7P4sg",
+                "title": "Xuxa Park"
+            }
+        },
+        {
+            "spotifyInfo": {
+                "title": "Quedate Luna",
+                "artist": "Onda Vaga",
+                "time": 225647,
+                "min": 3,
+                "sec": 45
+            },
+            "youtubeInfo": {
+                "id": "/watch?v=NyrPMXobaws",
+                "URL": "https://www.youtube.com//watch?v=NyrPMXobaws",
+                "title": "Quedate Luna"
+            }
+        }
+    ]
+}

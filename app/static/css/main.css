@@ -1,0 +1,150 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f6ff;  color : #393939;
+}
+#block_content{
+  padding: 30px;
+  width : 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header a{
+  font-family: 'Oswald', sans-serif;
+  font-size: 80px;
+  color : #393939;
+}
+
+#results{
+  width:100%;
+  box-shadow: 0 0 0 0;
+  border:1px solid rgba(124,160,214,0.3);
+}
+
+#grid_index{
+  display: grid;
+  grid-template-columns: 30% 65% auto;
+  grid-template-rows: 100px auto;
+  grid-column-gap: 30px;
+  justify-content: start;
+}
+#user_playlists{
+  grid-column-start: 2;
+  
+}
+#URI{
+  justify-self: end;
+  align-self: center;
+  padding: 0px;
+  height: 50px;
+  font-size: 20px;
+}
+
+#URI p{
+  margin : 0px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.search_champ{
+  border: none;
+  border-right: 1px solid rgba(124,160,214,0.3);
+  width: 400px;
+  background-color: #f8f6ff;
+  margin-left: 5px;
+}
+
+.but_search{
+  height:100%;
+  border: none;
+  font-size: 20px;
+  background-color :  #e6e6ff;
+}
+.but_search:hover{
+  background-color: #f8f6ff;
+}
+
+.checkbox{
+  width: 19px;
+}
+.download{
+  width: 19px;
+}
+
+tr .cover{
+  width: 60px;
+  height: 60px;
+  padding:5px;
+  align-items:center;
+}
+
+tr:hover{
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  background-color :  #e6e6ff;
+  
+}
+
+td{
+  padding-left: 5px;
+  padding-right:5px;
+}
+
+a{
+  color : #577196;
+  text-decoration: None;
+  
+}
+img{
+  padding : 3px;
+}
+
+table{
+  border-collapse:collapse;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+th{
+  font-size: 30px;
+  color: #324157;
+  background-color : #e6e6ff;
+}
+
+
+th:hover{
+  box-shadow: 0px 0px 0px 0px;
+  background-color :  #e6e6ff;
+}
+
+td{
+  border:1px solid rgba(124,160,214,0.3);
+}
+
+#loading{
+  display: block;
+  width:200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#download_information{
+  width : 75%;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+#download_information p{
+  margin: 5px;
+  padding: 10px;
+}
+
+.success {
+    background-color: rgba(108,161,48,0.8);
+}
+
+.error {
+    background-color: rgba(161,81,48,0.8);
+}
+

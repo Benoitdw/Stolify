@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <meta http-equiv="Refresh" content="0; url={{ url_for('create_results' , playlist_id = send, renew=renew)}}" />
+    {% if title %}
+    <title>{{ title }} - Stolify</title>
+    {% else %}
+    <title>Stolify</title>
+    {% endif %}
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+
+<body>
+    <div id="header"><a href="{{url_for('index')}}">Stolify</a></div>
+    <hr id="hr_header">
+
+    <div id="block_content">
+        <p> Please wait for the operation...</p>
+        <img src="{{url_for('static', filename='loading.gif')}}" id="loading" />
+    </div>
+</body>
+
+</html>

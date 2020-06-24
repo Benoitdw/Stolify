@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id="grid_index">
+    <table id="featured_playlists">
+        <tr>
+            <th colspan="2">Featured Playlists</th>
+        </tr>
+        {% for playlist in featured_playlists["playlists"]["items"] %}
+
+        <tr>
+
+            <td class="cover"><a href={{ url_for('loadingPage' , playlist_id = playlist['id'])}}><img
+                        src="{{ playlist['images'][0]['url'] }}" width="50" height="50"></a></td>
+
+            <td class="title_playlist"><a href={{ url_for('loadingPage' , playlist_id = playlist['id'])}}>
+                    <p>{{ playlist["name"]}}</p>
+                </a>
+            </td>
+        </tr>
+
+        {% endfor %}
+    </table>
+    <form id="URI" action="" method="post" novalidate>
+        {{form.hidden_tag()}}
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        {% for message in messages %}
+        <div id="error_id">
+            {{ message }}
+        </div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+        <p>
+            {{form.uri(size=22 , class="search_champ", placeholder="Search with URI..")}}{{form.submit(class= "but_search") }}
+        </p>
+    </form>
+    <table id="user_playlists">
+        <tr>
+            <th colspan="2">Your personal playlist</th>
+        </tr>
+        {% for playlist in current_playlist["items"] %}
+        <tr>
+
+            <td class="cover"><a href={{ url_for('loadingPage' , playlist_id = playlist['id'])}}><img
+                        src="{{ playlist['images'][0]['url'] }}" width="50" height="50"></a></td>
+
+            <td class="title_playlist"><a href={{ url_for('loadingPage' , playlist_id = playlist['id'])}}>
+                    <p>{{ playlist["name"]}}</p>
+                </a>
+            </td>
+        </tr>
+
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

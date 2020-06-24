@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+<script language="JavaScript">
+    function toggle(source) {
+        checkboxes = document.getElementsByName('foo');
+        for (var i = 0, n = checkboxes.length; i < n; i++) {
+            checkboxes[i].checked = source.checked;
+        }
+    }
+</script>
+
+<h1> {{playlist_data['playlist']['name']}}</h1>
+<a href="{{ url_for('loadingPage' , playlist_id = playlist_data['playlist']['id'], renew=(1))}}">Renew</a>
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+{% for category, message in messages %}
+<div id="download_information" class='{{ category }}'>
+</div>
+{% endfor %}
+{% endif %}
+{% endwith %}
+<form action="{{url_for('multiDownload', json_id=playlist_data['playlist']['id'])}}" method="POST">
+    <table id="results">
+        <tr>
+            <th></th>
+            <th>Spotify Informations</th>
+            <th>Youtube Informations</th>
+            <th></th>
+        </tr>
+        <input type="checkbox" onClick="toggle(this)" /> Toggle All<br />
+        {% for track in playlist_data['tracks'] %}
+
+        <tr class="spoiler">
+            <td class="checkbox"><input type="checkbox" name="foo" value={{loop.index}} id={{loop.index}}></td>
+            <td class="spotifyInfo">{{track['spotifyInfo']['artist']}} - {{track['spotifyInfo']['title']}}
+                -
+                {{track['spotifyInfo']['min']}}:{{track['spotifyInfo']['sec']}}</td>
+            <td class="youtubeInfo"> {{track['youtubeInfo']['title']}} - <a
+                    href="{{track['youtubeInfo']['URL']}}">link</a>
+            </td>
+            <td class="download"><a
+                    href="{{url_for('download', json_id=playlist_data['playlist']['id'], id=loop.index)}}"><img
+                        src="{{url_for('static', filename='dowload.png')}}" width="15" height="15" /></a></td>
+        </tr>
+        {% endfor %}
+    </table>
+    <button>Send my selection</button>
+</form>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+{% for category, message in messages %}
+<div id="download_information" class='{{ category }}'>
+    <p>{{ message }}</p>
+</div>
+{% endfor %}
+{% endif %}
+{% endwith %}
+<img src="{{url_for('static', filename='happy.png')}}" id="loading" />
+{% endblock %}
