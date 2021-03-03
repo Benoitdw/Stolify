@@ -11,14 +11,11 @@ discuss here. However you can find more informations here:
 
 * [Does youtube-dl face any legal issues?](https://www.quora.com/Does-youtube-dl-face-any-legal-issues?share=1)
 
-## Know bugs
+## Know bugs / Issues
 *   There is a issue for wrapping youtube. It leads the app to not find any music on youtube.
+*   The code may be improved a lot, I coded it 1 year ago to learn Flask.
 
 ## Quick start
-
-
-
-
 
 
 ## Run 
@@ -29,10 +26,14 @@ flask run
 ## FAQ
 
 *No informations from youtube ?*
+
 Update your youtube_dl version, this is appening very often. 
 In your venv : `pip3 youtube_dl -U`
 
+----------
+
 *Flask not found*
+
 Be sure to launch your venv
 ```bash
 cd <path to your flask application>

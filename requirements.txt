@@ -1,0 +1,143 @@
+apipkg==1.5
+appdirs==1.4.4
+argon2-cffi @ file:///tmp/build/80754af9/argon2-cffi_1596828493937/work
+asgiref==3.2.10
+astroid==2.4.2
+async-generator==1.10
+attrs==19.3.0
+autopep8==1.5.3
+backcall==0.2.0
+bcrypt @ file:///tmp/build/80754af9/bcrypt_1597936221426/work
+beautifulsoup4==4.9.3
+black==20.8b1
+bleach @ file:///tmp/build/80754af9/bleach_1600439572647/work
+brotlipy==0.7.0
+bs4==0.0.1
+certifi==2020.12.5
+cffi @ file:///tmp/build/80754af9/cffi_1600699146221/work
+chardet==3.0.4
+click==7.1.2
+coloredlogs==14.0
+conda==4.9.2
+conda-package-handling @ file:///tmp/build/80754af9/conda-package-handling_1603018141399/work
+cryptography @ file:///tmp/build/80754af9/cryptography_1601046815590/work
+cv2-tools==2.4.0
+cycler==0.10.0
+decorator==4.4.2
+decouple==0.0.7
+defusedxml==0.6.0
+distlib==0.3.1
+Django==3.0.8
+entrypoints==0.3
+execnet==1.7.1
+filelock==3.0.12
+Flask==1.1.2
+Flask-WTF==0.14.3
+humanfriendly==8.2
+idna @ file:///tmp/build/80754af9/idna_1593446292537/work
+ImageHash==4.1.0
+importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1602276842396/work
+ipykernel==5.3.4
+ipython==7.18.1
+ipython-genutils==0.2.0
+ipywidgets==7.5.1
+isort==4.3.21
+itsdangerous==1.1.0
+jedi==0.17.2
+Jinja2==2.11.2
+jsonschema @ file:///tmp/build/80754af9/jsonschema_1602607155483/work
+jupyter==1.0.0
+jupyter-client==6.1.7
+jupyter-console==6.2.0
+jupyter-core==4.6.3
+jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
+kiwisolver==1.2.0
+lazy-object-proxy==1.4.3
+lyricwikia==0.1.11
+MarkupSafe==1.1.1
+matplotlib==3.3.1
+mccabe==0.6.1
+mistune==0.8.4
+more-itertools==8.4.0
+mutagen==1.44.0
+mypy-extensions==0.4.3
+nb-conda-kernels @ file:///tmp/build/80754af9/nb_conda_kernels_1598624768519/work
+nbclient @ file:///tmp/build/80754af9/nbclient_1602783176460/work
+nbconvert @ file:///tmp/build/80754af9/nbconvert_1601914830498/work
+nbformat @ file:///tmp/build/80754af9/nbformat_1602783287752/work
+nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1601499549014/work
+notebook @ file:///tmp/build/80754af9/notebook_1601501575118/work
+numpy==1.19.2
+opencv-python==4.4.0.44
+packaging==20.4
+pandocfilters==1.4.2
+paramiko @ file:///tmp/build/80754af9/paramiko_1598886428689/work
+parso==0.7.1
+pathlib==1.0.1
+pathspec==0.8.1
+pep8==1.7.1
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==7.2.0
+pipenv==2020.11.15
+pluggy==0.13.1
+plyer==1.4.3
+prometheus-client==0.8.0
+prompt-toolkit==3.0.7
+ptyprocess==0.6.0
+py==1.9.0
+pycodestyle==2.6.0
+pycosat==0.6.3
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+Pygments @ file:///tmp/build/80754af9/pygments_1604103097372/work
+pylint==2.5.3
+PyNaCl @ file:///tmp/build/80754af9/pynacl_1595009131182/work
+PyOpenGL==3.1.5
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1594392929924/work
+pyparsing==2.4.7
+pyrsistent @ file:///tmp/build/80754af9/pyrsistent_1600141720057/work
+PySide2==5.15.2
+PySocks==1.7.1
+pytest==5.4.3
+pytest-cache==1.0
+pytest-pep8==1.0.6
+python-constraint==1.4.0
+python-dateutil==2.8.1
+python-decouple==3.4
+pytube3==9.6.4
+PyWavelets==1.1.1
+pyzmq==19.0.2
+qtconsole==4.7.7
+QtPy==1.9.0
+regex==2020.11.13
+requests @ file:///tmp/build/80754af9/requests_1592841827918/work
+ruamel-yaml==0.15.87
+scipy==1.5.2
+Send2Trash==1.5.0
+shiboken2==5.15.2
+six==1.15.0
+soupsieve==2.2
+spotdl==2.2.1
+spotipy==2.13.0
+spotpl==1.1.0
+sqlparse==0.3.1
+terminado==0.9.1
+testpath==0.4.4
+toml==0.10.1
+tornado==6.0.4
+tqdm==4.47.0
+traitlets==5.0.4
+typed-ast==1.4.2
+typing-extensions==3.7.4.2
+unicode-slugify==0.1.3
+urllib3 @ file:///tmp/build/80754af9/urllib3_1603305693037/work
+virtualenv==20.4.2
+virtualenv-clone==0.5.4
+wcwidth==0.2.5
+webencodings==0.5.1
+Werkzeug==1.0.1
+widgetsnbextension==3.5.1
+wrapt==1.12.1
+WTForms==2.3.3
+youtube-dl==2021.3.3
+zipp @ file:///tmp/build/80754af9/zipp_1604001098328/work
