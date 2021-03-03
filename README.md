@@ -32,7 +32,13 @@ source venv/bin/activate
 #Install requirements
 pip3 install -r requirements.txt 
 ```
-Congratulation ! :partying_facing:
+Now set up your Spotify by making a file .env `touch .env`. Edit it like it:
+```bash
+
+SPOTIPY_CLIENT_ID= Your Client ID
+SPOTIPY_CLIENT_SECRET= your Client Secret
+```
+Congratulation ! 
 
 You can now launch Stolify with this command:
 
