@@ -1,6 +1,9 @@
 # Stolify
 Stolify is a free and open source Flask App to download Spotify's playlist trough Youtube.
 
+![Home Page](illustration.png)
+Stolify Home Page
+
 ## Disclaimer
 This application is based on youtube-dl, is it legal to use youtube-dl? It's a grey area that I will not
 discuss here. However you can find more informations here:  
@@ -14,14 +17,33 @@ discuss here. However you can find more informations here:
 ## Know bugs / Issues
 *   There is a issue for wrapping youtube. It leads the app to not find any music on youtube.
 *   The code may be improved a lot, I coded it 1 year ago to learn Flask.
+*   Too much packages in requirements.txt, I must clean this mess.
 
 ## Quick start
 
+```bash
+git clone https://github.com/Ermite28/Stolify.git
+cd Stolify
 
-## Run 
+# Create and activate virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+#Install requirements
+pip3 install -r requirements.txt 
+```
+Congratulation ! :partying_facing:
+
+You can now launch Stolify with this command:
+
 ```bash
 flask run
 ```
+You are now redirected to Spotify, Log in and copy paste the url you were redirected (My Github). 
+
+You can now enjoy Stolify on localhost:
+http://127.0.0.1:5000/
+
 
 ## FAQ
 
