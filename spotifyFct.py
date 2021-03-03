@@ -1,6 +1,8 @@
 import spotipy.util as util
 import spotipy
+from decouple import config
 import json
+import os
 
 scope = "user-library-read"
 
@@ -9,8 +11,8 @@ def identificationSpotify(username):
     token = util.prompt_for_user_token(
         username,
         scope,
-        client_id="25f213e47b4e4c348e603e2147efaa0a",
-        client_secret="35cbc40cf21d4e2a9af00729ead6d910",
+        client_id=config('SPOTIPY_CLIENT_ID'),
+        client_secret=config('SPOTIPY_CLIENT_SECRET'),
         redirect_uri="https://github.com/",
     )
     return token
