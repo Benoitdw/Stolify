@@ -41,7 +41,9 @@ def create_jsonFile(results, playlist_id):
         youtubeInfo['id'] = track.YoutubePage.id
         youtubeInfo['URL'] = track.YoutubePage.URL
         youtubeInfo['title'] = track.YoutubePage.title
-
+        youtubeInfo['time'] = track.YoutubePage.time
+        youtubeInfo['min'] = track.YoutubePage.min
+        youtubeInfo['sec'] = track.YoutubePage.sec
         current_track['spotifyInfo'] = spotifyInfo
         current_track['youtubeInfo'] = youtubeInfo
         data['tracks'].append(current_track)
@@ -58,7 +60,7 @@ def openPlaylistJson(json_id):
 
 
 def downloadYt(json_id, ids):
-    audioFormat = "mp3"  # Future posibilité de choisir son format
+    audioFormat = ""  # Future posibilité de choisir son format
     playlist_data = openPlaylistJson(json_id)
     for id in ids:
         id = int(id) - 1  # Jinja iteration start to 1 and no 0
@@ -68,7 +70,11 @@ def downloadYt(json_id, ids):
         ydl_opts = {
             'outtmpl': unquote(path),
             'format': 'bestaudio/best',
+            'postprocessors': [{
+                'key': 'FFmpegExtractAudio',
+                'preferredcodec': 'mp3' }]
         }
+
         ydl = YoutubeDL(ydl_opts)
         try:
             with ydl:
