@@ -5,7 +5,8 @@ import json
 from urllib.parse import unquote
 from flask import flash
 from youtube_dl import YoutubeDL
-
+from decouple import config
+from os.path import join
 
 def create_track_obj(playlist_id, tokenSpotify):
     sp = spotipy.Spotify(auth=tokenSpotify)
@@ -60,12 +61,13 @@ def openPlaylistJson(json_id):
 
 
 def downloadYt(json_id, ids):
-    audioFormat = ""  # Future posibilité de choisir son format
     playlist_data = openPlaylistJson(json_id)
     for id in ids:
         id = int(id) - 1  # Jinja iteration start to 1 and no 0
-        path = "{}/{} - {}.{}".format(playlist_data['playlist']['name'], playlist_data['tracks']
-                                      [id]['spotifyInfo']['title'], playlist_data['tracks'][id]['spotifyInfo']['artist'], audioFormat)
+        path = join(config('EXPORT_DIR'), playlist_data['playlist']['name'],
+                    f"{playlist_data['tracks'][id]['spotifyInfo']['title']} - {playlist_data['tracks'][id]['spotifyInfo']['artist']}")
+
+        print(path)
 
         ydl_opts = {
             'outtmpl': unquote(path),
@@ -81,7 +83,9 @@ def downloadYt(json_id, ids):
                 ydl.download(
                     [playlist_data['tracks'][id]['youtubeInfo']['URL']])
             if len(ids) == 1:
-                flash("The file {} - {}.{} has been successfully downloaded in file /{} !".format(playlist_data['tracks']
-                                                                                                  [id]['spotifyInfo']['title'], playlist_data['tracks'][id]['spotifyInfo']['artist'], audioFormat, playlist_data['playlist']['name']), 'success')
+                flash("The file {} - {}.mp3 has been successfully downloaded in file /{} !".format(playlist_data['tracks']
+                                                                                                  [id]['spotifyInfo']['title'],
+                                                                                                  playlist_data['tracks'][id]['spotifyInfo']['artist'],
+                                                                                                  playlist_data['playlist']['name']), 'success')
         except:
             flash("An error occured during download !", 'error')

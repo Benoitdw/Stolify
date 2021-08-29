@@ -35,8 +35,9 @@ pip3 install -r requirements.txt
 Now set up your Spotify by making a file .env `touch .env`. Edit it like it:
 ```bash
 
-SPOTIPY_CLIENT_ID= Your Client ID
+SPOTIPY_CLIENT_ID= your Client ID
 SPOTIPY_CLIENT_SECRET= your Client Secret
+EXPORT_DIR= Directory where to export playlists
 ```
 Congratulation ! 
 
