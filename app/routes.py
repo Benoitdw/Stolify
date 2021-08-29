@@ -3,7 +3,6 @@ from app import app
 from app.forms import PlaylistSearchForm
 from spotifyFct import identificationSpotify, list_featured_playlist, list_current_user_playlist, isPlaylist
 from class_fct import create_track_obj, create_jsonFile, openPlaylistJson, downloadYt
-import json
 from pathlib import Path
 import os.path
 import time

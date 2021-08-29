@@ -46,6 +46,9 @@ class YoutubePage:
             self.title = first_video.title
             self.image = getThumbnail(self.id)
             self.time = first_video.length
+            print(self.time)
+            self.min = int(self.time / 60)
+            self.sec = int(self.time % 60)
             print("{}".format(self.title))
         except:
             self.title = "NaN"

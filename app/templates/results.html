@@ -36,8 +36,9 @@
             <td class="spotifyInfo">{{track['spotifyInfo']['artist']}} - {{track['spotifyInfo']['title']}}
                 -
                 {{track['spotifyInfo']['min']}}:{{track['spotifyInfo']['sec']}}</td>
-            <td class="youtubeInfo"> {{track['youtubeInfo']['title']}} - <a
-                    href="{{track['youtubeInfo']['URL']}}">link</a>
+            <td class="youtubeInfo"> {{track['youtubeInfo']['title']}} -
+                {{track['youtubeInfo']['min']}}:{{track['youtubeInfo']['sec']}} -
+                <a href="{{track['youtubeInfo']['URL']}}">link</a>
             </td>
             <td class="download"><a
                     href="{{url_for('download', json_id=playlist_data['playlist']['id'], id=loop.index)}}"><img
