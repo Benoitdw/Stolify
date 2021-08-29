@@ -5,7 +5,6 @@ import json
 from urllib.parse import unquote
 from flask import flash
 from youtube_dl import YoutubeDL
-from pathlib import Path
 
 
 def create_track_obj(playlist_id, tokenSpotify):
@@ -42,11 +41,12 @@ def create_jsonFile(results, playlist_id):
         youtubeInfo['id'] = track.YoutubePage.id
         youtubeInfo['URL'] = track.YoutubePage.URL
         youtubeInfo['title'] = track.YoutubePage.title
+
         current_track['spotifyInfo'] = spotifyInfo
         current_track['youtubeInfo'] = youtubeInfo
         data['tracks'].append(current_track)
     path = "playlist_informations/{}.json".format(playlist_id)
-    with open(path, "w") as outJsonFile:
+    with open(path, "w") as outJsonFile: # TODO: Automatisation of directory playlist_informations creation
         json.dump(data, outJsonFile)
 
 

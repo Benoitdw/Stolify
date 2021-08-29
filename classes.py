@@ -1,8 +1,5 @@
-# import youtube_dl
-from bs4 import BeautifulSoup
-import requests
-import urllib
-
+from youtube_scraping_api import YoutubeAPI
+from youtube_scraping_api.utils import getThumbnail
 
 class SpotifyTrack:
     """
@@ -33,24 +30,22 @@ class YoutubePage:
     """
 
     def __init__(self, title, artist):
-        research_URL = (
+        api = YoutubeAPI()
+        research_query = (
             "https://www.youtube.com/results?search_query="
             + title.replace(" ", "+")
-            + " + "
+            + "+"
             + artist.replace(" ", "+")
         )
-        req = requests.get(research_URL)
-        soup = BeautifulSoup(req.text, "html.parser")
-        research_first_video = soup.find(
-            "a", attrs={"class": "yt-uix-tile-link"})
+        first_video = api.search(research_query)[1]
+        print(first_video)
 
-        try:  # Teste car il peut ne pas avoir de résultats
-            self.id = str(research_first_video.get("href"))  # temporaire
-            self.URL = "https://www.youtube.com/" + \
-                str(self.id)
-            self.title = str(research_first_video.get("title"))
-            self.image = None  # aller chercher comment faire plus tard
-            self.time = None  # aller chercher comment faire plus tard
+        try:  # Test because may be no results
+            self.id = first_video.id
+            self.URL = "https://www.youtube.com/watch?v=" + first_video.id
+            self.title = first_video.title
+            self.image = getThumbnail(self.id)
+            self.time = first_video.length
             print("{}".format(self.title))
         except:
             self.title = "NaN"
