@@ -61,7 +61,7 @@ pep8==1.7.1
 pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==8.3.1
-pipenv==2020.11.15
+pipenv==2022.1.8
 pluggy==0.13.1
 plyer==1.4.3
 prometheus-client==0.8.0
